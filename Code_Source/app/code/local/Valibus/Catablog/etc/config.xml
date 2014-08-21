@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Valibus_Catablog>
+            <version>0.1.0</version>
+        </Valibus_Catablog>
+    </modules>
+    <global>
+        <helpers>
+            <valibus_catablog>
+                <class>Valibus_Catablog_Helper</class>
+            </valibus_catablog>
+        </helpers>
+        <catalog>
+            <product>
+                <type>
+                    <blogarticle translate="label" module="valibus_catablog">
+                        <label>Blog Article</label>
+                        <model>valibus_catablog/product_type_blogarticle</model>
+                        <composite>0</composite>
+                        <index_priority>60</index_priority>
+                    </blogarticle>
+                </type>
+            </product>
+        </catalog>
+    </global>
+    <frontend>
+        <translate>
+            <modules>
+                <Valibus_Catablog>
+                    <files>
+                        <default>Valibus_Catablog.csv</default>
+                    </files>
+                </Valibus_Catablog>
+            </modules>
+        </translate>
+    </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Valibus_Catablog>
+                    <files>
+                        <default>Valibus_Catablog.csv</default>
+                    </files>
+                </Valibus_Catablog>
+            </modules>
+        </translate>
+    </adminhtml>
+</config>
