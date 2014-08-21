@@ -11,6 +11,11 @@
                 <class>Valibus_Catablog_Helper</class>
             </valibus_catablog>
         </helpers>
+        <models>
+            <valibus_catablog>
+                <class>Valibus_Catablog_Model</class>
+            </valibus_catablog>
+        </models>
         <catalog>
             <product>
                 <type>

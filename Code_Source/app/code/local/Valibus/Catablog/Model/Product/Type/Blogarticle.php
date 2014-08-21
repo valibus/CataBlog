@@ -1,0 +1,5 @@
+<?php
+class Valibus_Catablog_Model_Product_Type_Blogarticle extends Mage_Catalog_Model_Product_Type_Abstract
+{
+
+}
